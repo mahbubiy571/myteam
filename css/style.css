@@ -1,0 +1,93 @@
+@import url("./fonts.css");
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1540px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body {
+    background-color: #014E56;
+    color:#FFFFFF;;
+}
+
+/*  Header  */
+
+.header {
+    background-color:#014E56;
+}
+
+ul,
+li {
+    list-style: none;
+    display: flex;
+    gap:40px;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+    margin-top: 77px;
+    margin-left:165px;
+    margin-right: 40px;
+}
+
+.nav {
+    margin-top: 83px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.button {
+    margin-top: 73px;
+    margin-left: 577px;
+    margin-right:165px;
+    margin-bottom: 60px;
+    border: 2px solid #FFFFFF;
+    padding: 9px 32px;
+    border-radius: 24px;
+    font-weight: 600px;
+}
+
+/*  About Intro Section  */
+
+.about {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-left: 165px;
+    margin-top: 60px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 730px;
+    height: 112px;
+    margin-left: 155px;
+    margin-top: 60px;
+}
+
+.img-intro {
+    margin-left: 65px;
+    margin-top: 76px;
+}
