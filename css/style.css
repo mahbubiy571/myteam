@@ -102,29 +102,23 @@ a {
 .nav__CTA {
     display: flex;
     height: 200px;
+    align-items: center;
+    justify-content: space-between;
 }
-.img__CTA {
-    margin-top: 100px;
-    margin-left: 0;
-}
+
 .text__CTA {
-    margin-top: 76px;
-    margin-bottom: 76px;
     color: #012F34;
-    margin-left: 263px;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
+    margin-left: -263px;
 }
 .button__black {
     display: flex;
-    margin-top: 85px;
-    margin-bottom: 87px;
-    margin-right: 260px;
-    margin-left: 60px;
     border: 2px solid #012F34;
     padding: 9px 32px;
     border-radius: 24px;
     font-weight: 600;
     font-size: 18px;
+    margin-right:260px;
 }
